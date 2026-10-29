@@ -1,0 +1,15 @@
+# Goal: the pose the turtle must reach
+TargetPose target
+---
+# Result
+bool success
+TargetPose final_pose
+float64 position_error   # [m]   distance between final pose and target
+float64 yaw_error        # [rad] wrapped heading error at the end
+string message
+---
+# Feedback
+TargetPose current_pose
+float64 remaining_distance  # [m]
+float64 remaining_angle     # [rad] heading error w.r.t. the active phase
+string phase                # ROTATE_TO_TARGET | DRIVE_TO_TARGET | ROTATE_TO_YAW

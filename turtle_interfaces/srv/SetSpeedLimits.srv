@@ -1,0 +1,7 @@
+# Request: new limits, both must be > 0
+float64 max_linear_speed   # [m/s]
+float64 max_angular_speed  # [rad/s]
+---
+# Response
+bool success
+string message

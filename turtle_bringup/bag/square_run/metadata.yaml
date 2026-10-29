@@ -1,0 +1,66 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 23904832507
+  starting_time:
+    nanoseconds_since_epoch: 1793221267328413767
+  message_count: 2150
+  topics_with_message_count:
+    - topic_metadata:
+        name: /turtle1/cmd_vel
+        type: geometry_msgs/msg/Twist
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 10
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_9c45bf16fe0983d80e3cfe750d6835843d265a9a6c46bd2e609fcddde6fb8d2a
+      message_count: 655
+    - topic_metadata:
+        name: /turtle1/pose
+        type: turtlesim_msgs/msg/Pose
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: keep_last
+            depth: 7
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_37b07ace09a0ed2c5b774b1410dec972dfd1d292de5656ebc2b075ac646e09c8
+      message_count: 1495
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - 0_square_run_2026_10_29-00_01_07.mcap
+  files:
+    - path: 0_square_run_2026_10_29-00_01_07.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1793221267328413767
+      duration:
+        nanoseconds: 23904832507
+      message_count: 2150
+  custom_data: ~
+  ros_distro: lyrical

@@ -1,0 +1,12 @@
+# Goal: side length of the square [m]. A value <= 0 uses the server default.
+float64 side_length
+---
+# Result
+bool success
+int32 sides_completed
+string message
+---
+# Feedback
+int32 current_side          # 1..4
+TargetPose current_target   # corner the turtle is driving to
+float64 remaining_distance  # [m] forwarded from goToPose feedback
